@@ -1,0 +1,15 @@
+/workspaces/csharpgraphs/obj/Debug/net8.0/csharpgraphs.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/csharpgraphs/obj/Debug/net8.0/csharpgraphs.AssemblyInfoInputs.cache
+/workspaces/csharpgraphs/obj/Debug/net8.0/csharpgraphs.AssemblyInfo.cs
+/workspaces/csharpgraphs/obj/Debug/net8.0/csharpgraphs.csproj.CoreCompileInputs.cache
+/workspaces/csharpgraphs/obj/Debug/net8.0/csharpgraphs.sourcelink.json
+/workspaces/csharpgraphs/bin/Debug/net8.0/csharpgraphs
+/workspaces/csharpgraphs/bin/Debug/net8.0/csharpgraphs.deps.json
+/workspaces/csharpgraphs/bin/Debug/net8.0/csharpgraphs.runtimeconfig.json
+/workspaces/csharpgraphs/bin/Debug/net8.0/csharpgraphs.dll
+/workspaces/csharpgraphs/bin/Debug/net8.0/csharpgraphs.pdb
+/workspaces/csharpgraphs/obj/Debug/net8.0/csharpgraphs.dll
+/workspaces/csharpgraphs/obj/Debug/net8.0/refint/csharpgraphs.dll
+/workspaces/csharpgraphs/obj/Debug/net8.0/csharpgraphs.pdb
+/workspaces/csharpgraphs/obj/Debug/net8.0/csharpgraphs.genruntimeconfig.cache
+/workspaces/csharpgraphs/obj/Debug/net8.0/ref/csharpgraphs.dll
