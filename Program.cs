@@ -18,7 +18,7 @@ namespace Laboratorio
             graph.AddEdge(5, 2, 1);
             graph.AddEdge(0, 2, 1);
 
-            graph.dijkstra(0);
+            graph.FloydWarshall();
         }
     }
 }

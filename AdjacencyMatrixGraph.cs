@@ -148,5 +148,43 @@ namespace CsharpGraphs
 
             return min_index;
         }
+
+        public void FloydWarshall()
+        {
+            int[,] distance = new int[numVertices, numVertices];
+
+            for (int i = 0; i < numVertices; ++i)
+                for (int j = 0; j < numVertices; ++j)
+                    distance[i, j] = Matrix[i, j];
+
+            for (int k = 0; k < numVertices; ++k)
+            {
+                for (int i = 0; i < numVertices; ++i)
+                {
+                    for (int j = 0; j < numVertices; ++j)
+                    {
+                        if (distance[i, k] + distance[k, j] < distance[i, j])
+                            distance[i, j] = distance[i, k] + distance[k, j];
+                    }
+                }
+            }
+
+            Display(distance);
+        }
+
+        public static void Display(int[,] graph)
+        {
+            for (int i = 0; i < graph.GetLength(0); i++)
+            {
+                Console.Write("{0} : ", i);
+                for (int j = 0; j < graph.GetLength(1); j++)
+                {
+                    Console.Write(graph[i,j] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
     }
+
+   
 }
